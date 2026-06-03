@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Sales xsl="http://www.w3.org/1999/XSL/Transform">
+  <Item>
+    <Sales.P_Candidate>
+      <Candidate>
+        <Person.P_Name>氏名</Person.P_Name>
+        <Person.U_6E906CC3D68B8B4F24A2BA8C5398E7> 都道府県(連絡先) </Person.U_6E906CC3D68B8B4F24A2BA8C5398E7>
+        <Person.P_Street> 住所詳細(連絡先) </Person.P_Street>
+        <Person.U_3D5FF80A5778B97D9A1691856E9BB6>社員ID</Person.U_3D5FF80A5778B97D9A1691856E9BB6>
+        <Person.P_Mobile>携帯電話</Person.P_Mobile>
+      </Candidate>
+    </Sales.P_Candidate>
+    <Sales.P_Recruiter>
+      <Recruiter>
+        <Recruiter.P_Name>配属先</Recruiter.P_Name>
+      </Recruiter>
+    </Sales.P_Recruiter>    
+    <Sales.P_EnterDate>入社日</Sales.P_EnterDate>
+    <Sales.U_90CA808C30AD58DEE52B4A47077483>退職日</Sales.U_90CA808C30AD58DEE52B4A47077483>
+    <Sales.U_E24206F2988334AED0290ED1FF45EB>担当営業所</Sales.U_E24206F2988334AED0290ED1FF45EB>
+    <Sales.U_7AF631628675ACFFCAAD3E6835081D>退職理由</Sales.U_7AF631628675ACFFCAAD3E6835081D>
+    <Sales.U_FE59DB7A623F5A6EBC9FC1E51B6E38>退寮日</Sales.U_FE59DB7A623F5A6EBC9FC1E51B6E38>
+    <Sales.U_335C4644A9555814DA6FAB09F491A3>離職票</Sales.U_335C4644A9555814DA6FAB09F491A3>
+    <Sales.U_D661D8F77805484E905F009226CE2D>社会保険の加入</Sales.U_D661D8F77805484E905F009226CE2D>
+    <Sales.U_0D4F7BFFBAABBC65E5F8244D072C38>社保カード回収</Sales.U_0D4F7BFFBAABBC65E5F8244D072C38>
+    <Sales.U_73081E7CBF00C0993EA66ABF2DB9F4>アパート名</Sales.U_73081E7CBF00C0993EA66ABF2DB9F4>
+    <Sales.U_6B60BE32C518D198E59655CF81793D>自宅・寮</Sales.U_6B60BE32C518D198E59655CF81793D>
+    <Sales.U_1BAFD646C76F8079A0FCABABAA55C5>部屋番号</Sales.U_1BAFD646C76F8079A0FCABABAA55C5>
+  </Item>
+</Sales>

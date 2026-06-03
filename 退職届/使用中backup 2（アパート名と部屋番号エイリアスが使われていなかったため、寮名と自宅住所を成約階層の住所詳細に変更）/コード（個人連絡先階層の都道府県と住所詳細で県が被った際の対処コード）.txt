@@ -1,0 +1,26 @@
+
+
+
+
+
+
+
+
+										<fo:inline padding-left="6mm">
+											<!-- 都道府県と住所を正規化して取得 --><!--ここから下は、ポーターズでの住所詳細(成約)に都道府県が入っている人といない人で統一されてないため、都道府県が重複しない処理をするコード-->
+											<xsl:variable name="pref" select="normalize-space(Sales.P_Candidate/Candidate/Person.U_6E906CC3D68B8B4F24A2BA8C5398E7)"/>
+											<xsl:variable name="addr" select="normalize-space(Sales.U_A6F2AF68362CFCBC3833090D205198)"/>
+
+											<xsl:choose>
+											<!-- pref が空でない AND addr の先頭が pref と一致する場合 -->
+											<xsl:when test="string-length($pref) &gt; 0 and substring($addr, 1, string-length($pref)) = $pref">
+												<!-- pref を1回表示し、addr の先頭の pref 部分を切り落として続ける -->
+												<xsl:value-of select="$pref"/>
+												<xsl:value-of select="substring($addr, string-length($pref) + 1)"/>
+											</xsl:when>
+											<xsl:otherwise>
+												<!-- 重複がなければ通常通り連結 -->
+												<xsl:value-of select="concat($pref, $addr)"/>
+											</xsl:otherwise>
+											</xsl:choose>
+										</fo:inline>
