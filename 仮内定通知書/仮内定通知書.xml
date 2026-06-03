@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Process xsl="http://www.w3.org/1999/XSL/Transform">
+  <Item>
+    <Process.P_Resume>
+      <Resume>
+        <Resume.P_Candidate>
+          <Candidate>
+            <Person.P_Mobile>携帯</Person.P_Mobile>
+            <Person.P_Telephone>電話番号</Person.P_Telephone>
+            <Person.P_Mail>メール</Person.P_Mail>
+            <Person.P_Name> 氏名 </Person.P_Name>
+            <Person.P_Reading> (フリガナ) </Person.P_Reading>
+            <Person.U_6E906CC3D68B8B4F24A2BA8C5398E7> 都道府県(連絡先) </Person.U_6E906CC3D68B8B4F24A2BA8C5398E7>
+            <Person.P_City> 市区郡(連絡先) </Person.P_City>
+            <Person.P_Street> 住所詳細(連絡先) </Person.P_Street>
+            <Person.U_3D5FF80A5778B97D9A1691856E9BB6>社員ID(STEMS)</Person.U_3D5FF80A5778B97D9A1691856E9BB6>
+          </Candidate>
+        </Resume.P_Candidate>
+
+        
+        <Resume.P_Name> 氏名（レジュメ）</Resume.P_Name>
+        <Resume.U_B39F940CF5321D491A837364E3BC95>Roman</Resume.U_B39F940CF5321D491A837364E3BC95>
+        <Resume.U_FC72FCBA2CFD318880DB7CABF5C188>ローマ字読み</Resume.U_FC72FCBA2CFD318880DB7CABF5C188>
+        <Resume.P_Id> ご登録者ID </Resume.P_Id>
+        <Resume.P_Gender> 性別 </Resume.P_Gender>
+        <Resume.P_DateOfBirth> 年齢(生年月日) </Resume.P_DateOfBirth>
+        <Resume.P_ExperiencedJobCategory> 経験職種 </Resume.P_ExperiencedJobCategory>
+        <Resume.U_2B6FB5BA7986FB12329B2A0887C7AF> 保有資格 </Resume.U_2B6FB5BA7986FB12329B2A0887C7AF>
+        <Resume.U_98196497A1D0746BCB2BAE17051EBC>保有資格（その他）</Resume.U_98196497A1D0746BCB2BAE17051EBC>
+        <Resume.U_14DAB0E13372EAFBA4DE002700E307> 普通自動車免許 </Resume.U_14DAB0E13372EAFBA4DE002700E307>
+        <Resume.U_220238CFB049EBC7AE905C65F87A28> 学歴区分 </Resume.U_220238CFB049EBC7AE905C65F87A28>
+        <Resume.U_E182D9B71AE22AD4FF1D0A01DE456F> 卒業状況 </Resume.U_E182D9B71AE22AD4FF1D0A01DE456F>
+        <Resume.P_Education> 学歴(詳細) </Resume.P_Education>
+        <Resume.U_A524289DE7DCC1366C95D5E9D52C10>担当営業所</Resume.U_A524289DE7DCC1366C95D5E9D52C10>
+        <Resume.U_6184B5CC17CF510A92B30827310A7F>国籍</Resume.U_6184B5CC17CF510A92B30827310A7F>
+        <Resume.U_B7F58B07DBB38C544288FC3BC799B3>世代</Resume.U_B7F58B07DBB38C544288FC3BC799B3>
+        <Resume.U_F13ADF903E302FF618E39D7224E1F3>備考</Resume.U_F13ADF903E302FF618E39D7224E1F3>
+
+        <Resume.U_859C2192B958924649EEF5C32CD96B>渡航費金額(円)</Resume.U_859C2192B958924649EEF5C32CD96B>
+        <Resume.U_9D01D6141B7FF9B65B0C1B3FEB2AC3>渡航費金額合計(レアル)</Resume.U_9D01D6141B7FF9B65B0C1B3FEB2AC3>
+        <Resume.U_7628E4A1D55D9BADFC3D1B4DD3442F>旅行社</Resume.U_7628E4A1D55D9BADFC3D1B4DD3442F>
+
+        <Resume.U_CF34E62F0896F61437EB02653BF509>費用負担者1</Resume.U_CF34E62F0896F61437EB02653BF509>
+        <Resume.U_5494437830D7370292F4A9E4F7AE40>費用負担者2</Resume.U_5494437830D7370292F4A9E4F7AE40>
+        <Resume.U_622442D46BFCBAD8D2808D6918528A>費用負担者3</Resume.U_622442D46BFCBAD8D2808D6918528A>
+        <Resume.U_632D153D96921CD2D1E457433A2F46>費用負担者4</Resume.U_632D153D96921CD2D1E457433A2F46>
+        <Resume.U_7F5CD7D97F06B26A6346D012F1CA45>費用負担者5</Resume.U_7F5CD7D97F06B26A6346D012F1CA45>
+
+        
+        <Resume.U_A0C205177715FB08D25B0780CC47F2>航空券費用(レアル)</Resume.U_A0C205177715FB08D25B0780CC47F2>
+        <Resume.U_2A7DFBAD5815E9E455D29748692422>航空券費用(円)</Resume.U_2A7DFBAD5815E9E455D29748692422>
+        <Resume.U_C4C5637F77E0CB1CB2CF1A60311DB6>ビザ取得手続き代行費用(委託先)</Resume.U_C4C5637F77E0CB1CB2CF1A60311DB6>
+        <Resume.U_4D9859BC720044357B25ACC4B09029>海外旅行損害保険費用(委託先)</Resume.U_4D9859BC720044357B25ACC4B09029>
+        <Resume.U_CBCC2E7ED4BD5C9E5C4F112B73269E>空港のアテンド費用(委託先)</Resume.U_CBCC2E7ED4BD5C9E5C4F112B73269E>
+        <Resume.U_A86F170D121F43A6C87D798428CCA6>その他の費用(委託先)</Resume.U_A86F170D121F43A6C87D798428CCA6>
+        <Resume.U_859C2192B958924649EEF5C32CD96B>渡航費金額合計(円)</Resume.U_859C2192B958924649EEF5C32CD96B>
+        
+
+      </Resume>
+    </Process.P_Resume>
+
+  </Item>
+ 
+  <System>
+    <User>
+      <User.P_Name>ユーザー名</User.P_Name>
+    </User>
+  <CurrentDateTime>日時</CurrentDateTime>
+  </System>
+
+</Process>
+  
